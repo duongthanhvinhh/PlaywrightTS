@@ -1,7 +1,6 @@
 import {test, expect} from "@playwright/test"
 import ContactPage from "../pages/contact.page";
-// import {faker} from '@faker-js/faker'
-const { faker } = require('@faker-js/faker');
+import {faker} from '@faker-js/faker'
 
 test.describe('Contact', () => {
     let contactPage: ContactPage
