@@ -22,4 +22,4 @@ jobs:
           name: Test Results
           path: test-results
       - name: Generate allure report
-        run: npx allure generate test-results --clean && npx allure open
+        run: npx allure generate test-results --clean
